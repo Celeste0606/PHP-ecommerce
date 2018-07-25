@@ -1,0 +1,325 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*CSS reset removes all defalut styles applied by the browser*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    /*font-size: 100%; and font: inherit; are not required so they were removed*/	
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end css reset*/
+
+body {
+	
+background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFcAVwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAgADBv/EAC0QAQACAgIBAwIFBQADAAAAAAECEQAhEjFBAyJRYcFCcYGR8BMyUqGxI+Hx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAEHBf/EABkRAQEBAQEBAAAAAAAAAAAAAAARAUExIf/aAAwDAQACEQMRAD8A9uxubTQaXBh/dtosLejN6cg9OpJd9x2YxtAa3aj4zP3QSvD01iXyvrH0/TWokRa1b5wqnj/cea+mVONQuo6NkfP6YwYhKMHk+L32/XACpcXuVH0yyWrqKPaunOcaPUJa4+R7yB4OgW+mvjNwiToet1d4sr9S4vXzgx1FsHyPnLwRfKa06oLayyCz9vto/wB/OMIkrUgX/lmgBNj2nzkG9WHGVS039t/bNh6sidXQ12N6+ubLsMYolx+G2ad4wqcpAcvLF++H9yx4qxGw+LM05oRYvXbXWJ0M4gjBbettfl9Mm5SsYVLsK7ySyNqVplnXif1a4t9mz75BEKnJkyNNXWNvElIvdEK85U33VLXiVZDxh2e09rvvvKFQicnzej/X55bCPGpCPetLkenuXFPc96u3+V++Q8nU3ZoE6cQUTlEquUf8q3gtMY2VKnr7ZX4ZMi0bd5VJ6dB7U895ARsYkK/P4+c2Ewrne3VX1mxoYsfSk+6y7eJe/rnPnUlLFl5e8t002+f1/l4R9ohGyN2PX6ZaEGJX9pVPzgBHfR4f8cTUF2V1v6ZCMzdRUu3xgWsUtPdJ19P58YBFjfI9r1Iq3NyZnaMTrzX1yt7sohRR5yCfVlHWpMtiuqzRk+rcmnsF8/TDpGnevzXK3zjcaepN9/nlo0tyvuWu9fpmE1HdXex9uDd8dtdq4Ql/SZFnu210Ff8AdYG5xJco6Pw6XNi3C+O3q39/tmyC4e+LMbt8eMORvjXJX+fz4wjYDfG2gDeMe6O4tF+MohqUOPSa+PzyoxsuASv4c07Jf+Qo/wAvBlTncdJrVh98YKI3CtR1qzrOcV5/02tyv88zPnN6fmz7YB7gjXm2tGQWpGZGXRvJvjIWqTx4xPm1t4jmSbA4lnQZeCIwLaY7rtq86encpajv96w9OYHe+kS3J5VJX9qr/wCZBfrRlBuNfkFU/XNgtsWaFFaM2XYgpZ8xubZeIkEZKxbK+MmEP6jK730Hgwa6momhOjCq586t3qv/AHmj6dSojp0nesAuO9taovi5iVz58etIfXzkFEeN8JcrbPGFXDg6vdX/AKxmIsjjQ6byFWvCtv0MCqlIKkmtUeMz6ont0V7r8fGaUWCSiadfXx/375IA1CXyb8fTAePPfe65KY8NRkvGRuqq683hKi4kSpP4jrK/ARqpXTbgZuM+XHUbwzInsmgHabwwK5yZct3et1431kx9OXqVSxVb6q7wzZb8gpaiLFPw6fFX+2E5MbS7Or24ZsZsDKokIkpN7q/L9f1xOR7OSqi+f+5s2QSCzjV0ix3f/cupWWEuf8385s2LvgOQi7+EXWHpNyksk/p6M2bAIntHkgG2/ObNmyj/2Q==');
+    background-repeat: repeat-y repeat-x;
+}
+.container{
+	width: 100%;
+}
+.header{
+width: 900px;
+height:165px;
+margin:auto;
+}
+
+#logo{
+	float:left; 
+	width: 100%; 
+	height: 165px;
+	background-color: #fff;
+	font-size: 40px;
+	color:#2d084e;
+	font-family: "Pacifico", cursive;
+	padding-top: 10px;
+	padding-right: 5px;
+}
+#logo a{
+	text-decoration: none;
+	color:#2d084e;
+	position: relative;
+	top: 15%;
+	left:2%;
+	padding-bottom: 10px;
+}
+
+#banner{float:right;}
+
+.facebook{
+	float: right;
+	padding-top: 10px;
+}
+.twitter{
+	float: right;
+	padding-top: 10px;
+}
+.google{
+	float: right;
+	padding-top: 10px;
+}
+/*------------- begin nav-*/
+.nav{
+width: 100%;
+height:50px;
+background:white;
+color: gray;
+}
+
+#menu{
+padding:0;
+margin:0;
+line-height:40px;
+float: left;
+}
+
+#menu li{
+list-style: none;
+display: inline;
+}
+
+#menu a{
+text-decoration: none;
+color: gray;
+padding: 9px;
+margin:6px;
+font-size:17px;
+font-family: "Helvetica" Sans-Serif arial;
+}
+
+#menu a:hover{
+color: orange;
+font-weight: bolder;
+}
+/*------------- end nav-*/
+/*------------- search box*/
+#form { padding-right:9px;float:right; line-height:40px;}
+/*------------- end search box*/
+/*----carousel----*/
+/*.carousel{
+	overflow: hidden;	
+	height: 250px;
+	background-color: white;
+	width: 100%; 
+}
+/*---- end carousel----*/
+/*--------promo-----*/
+.promo{
+	margin-right: 15%;
+	margin-bottom: 55%;
+	font:11em "Amatic SC", cursive;
+	color: beige;
+	text-shadow: 2px 2px #9e005d;
+}
+/*------end promo-----*/
+.content{
+width: 96%;
+margin:auto;
+background: beige;
+height: 1000px;
+}
+
+#content2{
+width: 100%;
+height: 1000px;
+margin:auto;
+background: beige;
+}
+
+/*-------------sidebar */
+#sidebar{
+width: 16%;
+height:auto;
+float:right;
+background: #e1e1e1;
+}
+#sidebar_title{
+background:#9e005d;
+color:black;
+font-size:20px;
+font-family: arial;
+padding: 10px;
+text-align:center;
+}
+/*categories*/
+#cats{
+text-align: center;
+}
+#cats li{
+margin: 15px;
+}
+#cats a{
+color:#2d084e;
+padding:9px;
+margin:5px;
+font-size: 18px;
+font-family: Helvetica sans-serif arial;
+text-decoration:none;
+}
+#cats a:hover{
+color:orange;
+font-weight:bolder;
+text-decoration: none;
+}
+/*end categories*/
+/*------------- end sidebar */
+/*-----contact form-----*/
+#contact-form{
+width: 70%;
+height: 450px;
+margin: auto;
+-webkit-box-shadow: -4px 7px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 7px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 20px 0px rgba(0,0,0,0.75);
+border-radius: 1px;
+background-color:beige;
+padding: 15px;
+text-align: center;
+padding-top: 15px;
+}
+#contact-form input, textarea {
+width: 50%;
+margin: 5px auto;
+}
+#contact-form label{
+display:block;
+text-align: left;
+}
+#contact-form #submit{
+	width: 15%;
+}
+.form-wrapper{
+	margin-top: 60px;
+    width: 90%;
+    height:450px;
+    margin: auto;
+    border-width: 2px;
+    background-color: white; 
+    border-radius: 1px;
+    padding-top: 15px;
+}
+/*-----end contact form-----*/
+/*--------about-------*/
+#about-sec p{
+	text-indent: 30px;
+	padding: 20px;
+	font-size: 18px;
+}
+#about-sec blockquote{
+	text-indent: 35px;
+	padding: 10px;
+	font-size: 22px;
+
+}
+#about-sec{
+	-webkit-box-shadow: -4px 7px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 7px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 20px 0px rgba(0,0,0,0.75);
+}
+#cotton{
+	margin-left: 350px;
+}
+/*--------end about-------*/
+/*--------customer login-------*/
+#customer_login {
+	margin-left: 375px;
+}
+/*--------end customer login-------*/
+/*--------products (contnent)-------*/
+#products_box{
+width: 100%;
+text-align: center;
+margin-left:30px;
+margin-bottom: 10px;	
+}
+#single_product {
+float: left;
+margin-left: 30px;
+padding: 10px;
+}
+#single_product img{
+border: 1px solid #D0D0D0 ;
+}
+#shopping_cart{
+width: 100%;
+height: 51px;
+background-color:  #656600;
+color: white;
+}
+/*--------end products (contnent)-------*/
+/*----------footer -------*/
+#footer{
+    width: 100%;
+    height:75px;
+    background: #cc6698;
+    color: #2d084e;
+    clear:both;
+    text-align: center;
+    padding: 10px;
+}
+#footer li{
+	text-decoration: none;
+	list-style-type: none;
+}
+/*---------- end footer -------*/
+/*-----  h1,h2,h3,h4,h5,h6 ----*/
+h2{
+color: #2d084e;
+margin: 2% 0 0 5%;
+font-size: 16px;
+
+}
+/*----- end h1,h2,h3,h4,h5,h6 ----*/
+
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+ #content2{height:2150px; width: 100%; font-size: 12px;}
+ .content{height: 25px;}
+ #sidebar{height:2150px; width: 27%; font-size: 10px;}
+ #cats a{font-size: 9px;float: left;}
+ #cats li{margin: 0;}
+ #sidebar_title{width: 96%; font-size: 12px;}
+ #products_box{font-size: 12px;}
+ .intro h1{font-size: 12px;}
+ #footer h2{font-size: 14px;}
+ .img{display: none;}
+}
